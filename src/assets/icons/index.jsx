@@ -14,7 +14,7 @@ export { default as ReactIcon } from "./React";
 export { default as SpringBootIcon } from "./Springboot";
 export { default as OracleSqlDeveloperIcon } from "./OracleSqlDeveloper";
 export { default as BlueCorrectIcon } from "./BlueCorrect";
-export {default as LinkedInIcon} from "./LinkedIn"
+export {default as LinkedInIcon} from "./Linkedin"
 export {default as GmailIcon} from "./Gmail"
 export { default as CssIcon } from "./Css";
 export { default as HtmlIcon } from "./Html";
