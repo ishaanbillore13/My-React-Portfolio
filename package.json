@@ -14,6 +14,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.9.1",
     "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "bootstrap-icons": "^1.13.1",
     "gsap": "^3.13.0",
     "react": "^19.1.1",
