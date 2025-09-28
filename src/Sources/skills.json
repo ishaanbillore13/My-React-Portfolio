@@ -1,0 +1,35 @@
+{
+"heading": "Skills",
+"skills": [
+    {
+      "title": "Programming Languages",
+      "items": ["Java", "Javascript", "Typescript"],
+      "competency": [80,75,75]
+    },
+    {
+      "title": "Web Development Technologies",
+      "items": ["Html", "Css", "Bootstrap", "MaterialUI"],
+      "competency": [90,90,75,70]
+    },
+    {
+      "title": "Frameworks & Libraries",
+      "items": ["Angular","React", "SpringBoot"],
+      "competency": [80,75,60]
+    },
+    {
+      "title": "DevOps",
+      "items": ["AWS", "Docker", "Kubernetes"],
+      "competency": [80,75,75]
+    },
+    {
+      "title": "Databases",
+      "items": ["Mysql","OracleSqlDeveloper"],
+      "competency": [80,75]
+    },
+    {
+      "title": "Professional Skills",
+      "items": ["Problem Solving Skills", "Strong Interpersonal Skills", "Adaptability and Creativity"],
+      "competency": [0,0,0]
+    }
+  ]
+}

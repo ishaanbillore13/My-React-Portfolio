@@ -1,0 +1,21 @@
+{
+    "heading": "Connect with Me!",
+    "sites": [
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/ishaanbillore13/",
+            "icon": "LinkedInIcon"
+        },
+        {
+            "name": "Github",
+            "url": "https://github.com/ishaanbillore13",
+            "icon": "GithubIcon"
+        },
+        {
+            "name": "Gmail",
+            "url": "mailto:ishaanbillore13@gmail.com",
+            "icon": "GmailIcon"
+        }
+    ]
+}
+       

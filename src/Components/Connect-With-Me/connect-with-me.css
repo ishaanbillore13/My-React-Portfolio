@@ -1,0 +1,28 @@
+.connect-with-me {
+  padding: 32px 16px;
+  color: var(--text-color, #2d3748);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 40vh;
+  background: var(--component-bg);
+  box-shadow: 0 2px 12px rgba(59,130,246,0.06);
+  transition: background 0.4s, color 0.3s;
+}
+
+.connect-with-me h2 {
+  text-align: center;
+  padding: 2rem 1.2rem 2.2rem;
+  color: #f7fafd;
+  font-weight: 700;
+  text-shadow: 0 2px 12px rgba(59,130,246,0.08);
+}
+
+.contact-me-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+

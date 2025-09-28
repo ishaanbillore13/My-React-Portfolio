@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-optical-sizing: auto;
+  text-align: left;
+  font-size: 3rem;
+  padding: 2.5rem;
+}
+html, body {
+  scroll-behavior: smooth;
+}
+
+.main-heading {
+  padding: 2.5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #f7fafd;
+  --header-button-text: #000;
+}
+body.dark {
+  --component-bg: radial-gradient(ellipse 120% 100% at 20% 30%, #1e293b 0%, #0f172a 70%),
+    linear-gradient(120deg, rgba(59,130,246,0.08) 0%, rgba(30,41,59,0.18) 100%);
+  --text-color: #F9F6EE;
+}
+body.light {
+  --text-color: #2d3748;
+  --card-bg: #f6f8fa;
+  --card-shadow: 0 2px 12px rgba(59,130,246,0.06);
+  --accent-blue: #3b82f6;
+  --accent-cyan: #7dd3fc;
+  --accent-bg: #e3eaf5;
+  --accent-gradient: linear-gradient(90deg, #7dd3fc 0%, #3b82f6 100%);
+  --component-bg: linear-gradient(to right, #373b44, #4286f4);
+}
+.certifications-section {
+  background: var(--component-bg) !important;
+}
+body.dark .certifications-section {
+  background: transparent !important;
+}
+.skills-section-bg {
+  background: var(--component-bg) !important;
+}
+body.dark .skills-section-bg {
+  background: transparent !important;
+}
+.flex-applier {
+  background: var(--component-bg) !important;
+}
+body.dark .flex-applier {
+  background: transparent !important;
+}

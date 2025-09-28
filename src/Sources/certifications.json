@@ -1,0 +1,18 @@
+{
+    "heading": "Certifications",
+    "cloudAndDevOps": [
+        {
+            "heading": "Cloud & Devops",
+            "certifications": [
+                {
+                    "name": "AWS Cloud Essentials – Knowledge Badge Readiness Path (Includes Labs)",
+                    "links":  "https://www.credly.com/badges/8ac129a1-d3f2-46ac-976d-b9723479cbd7/public_url"
+                },
+                {
+                    "name": "AWS Cloud Quest: Cloud Practitioner - Training Badge",
+                    "links":  "https://www.credly.com/badges/a550935a-1c40-40b4-92f7-e6715a2411b6/public_url"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+   "navbarsections": [
+    {
+        "icon": "bi-house-fill",
+        "link": "Header"
+    },
+    {
+        "icon": "bi-briefcase-fill",
+        "link": "ProfessionalExperience"
+    },
+    {
+        "icon": "bi-gear-wide-connected",
+        "link": "Skills"
+    },
+    {
+        "icon": "bi-book-fill",
+        "link": "Education"
+    },
+    {
+        "icon": "bi-award-fill",
+        "link": "Certifications"
+    },
+    {
+        "icon": "bi-chat-left-text-fill",
+        "link": "ConnectWithMe"
+    }
+  ]
+}

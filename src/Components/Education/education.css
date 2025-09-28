@@ -1,0 +1,100 @@
+@media (max-width: 900px) {
+    .education-card {
+        width:70% !important;
+    }
+    .flex-uni-and-degree {
+        padding: 0.6rem 0.6rem 0.2rem 0.6rem !important;
+    }
+    .flex-year-and-location {
+        padding: 0.2rem 0.6rem 0.6rem 0.6rem !important;
+    }
+}
+/* Beautiful Education Section */
+.education-section-bg {
+    min-height: 100vh;
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: var(--component-bg);
+}
+
+.education-title {
+    letter-spacing: 1px;
+}
+
+.education-card {
+    display: flex;
+    width: 38%;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(60,60,120,0.18);
+    padding: 1rem 0.7rem;
+    margin-bottom: 1.2rem;
+    transition: box-shadow 0.3s, transform 0.3s;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.2rem;
+    background: rgba(0,0,0,0.10);
+}
+
+/* Degree and University */
+.flex-uni-and-degree {
+    flex-shrink: 0;
+    justify-content: flex-start;
+    width: 60%;
+    word-break: break-word;
+    padding: 0.6rem 0.6rem 0.6rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.flex-uni-and-degree h2 {
+    font-size: 1.08rem;
+       color: #f7fafd;
+           margin-bottom: 0.3rem;
+}
+
+/* Year and Location */
+.flex-year-and-location {
+    flex: 1;
+    word-break: break-word;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0.6rem 1.2rem 0.6rem 0.6rem;
+}
+.flex-year-and-location h2 {
+    font-size: 0.95rem;
+    color: #f7fafd;
+    margin-bottom: 0.2rem;
+}
+
+.flex-year-and-location h4 {
+         color: #f7fafd;
+
+}
+
+/* Remove old uni-card styles, merged into education-card */
+
+/* Wrapper for centering */
+.edu-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.uni-card h4{
+               color: #f7fafd;
+}
+
+.education-card:hover {
+      box-shadow: 0 12px 40px rgba(60,60,120,0.18);
+  transform: translateY(-4px) scale(1.03);
+}

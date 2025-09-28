@@ -1,0 +1,47 @@
+.fixed-theme-toggle {
+position: fixed;
+    right: 2rem;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    margin: 24px;
+}
+
+.theme-toggle-btns {
+	display: flex;
+	gap: 0.5rem;
+	background: var(--card-bg, #fff);
+	border-radius: 2rem;
+	box-shadow: var(--card-shadow, 0 4px 24px rgba(59,130,246,0.08));
+	padding: 0.3rem 0.7rem;
+	border: 1.5px solid var(--accent-cyan, #60a5fa);
+	transition: background 0.3s, box-shadow 0.3s;
+}
+.theme-toggle-btns.dark {
+	background: #22223b;
+	box-shadow: 0 4px 24px rgba(59,130,246,0.18);
+	border: 1.5px solid #22223b;
+}
+.toggle-btn {
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1.2rem;
+	padding: 0.5rem 0.8rem;
+	border-radius: 50%;
+	transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+	color: var(--accent-blue, #2563eb);
+}
+.toggle-btn.active {
+	background: var(--accent-bg, #e0e7ef);
+	color: var(--accent-blue, #2563eb);
+	box-shadow: 0 2px 8px rgba(59,130,246,0.10);
+}
+.theme-toggle-btns.dark .toggle-btn {
+	color: #ffd700;
+}
+.theme-toggle-btns.dark .toggle-btn.active {
+	background: #333;
+	color: #ffd700;
+}

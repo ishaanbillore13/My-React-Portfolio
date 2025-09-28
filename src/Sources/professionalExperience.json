@@ -1,0 +1,69 @@
+{
+    "heading" : "Relevant Professional Experience",
+    "experience" : [
+        {
+            "companyName": "BMW Techworks India",
+            "location": "Pune, India",
+            "overallTimePeriod" : "November 2024 - Present",
+            "roles" : [
+                {
+                    "role" : "Junior Software Developer",
+                    "roleTimePeriod" : null,
+                    "skills" : [
+                        "Angular", 
+                        "SpringBoot", 
+                        "AWS", 
+                        "Docker", 
+                        "Kubernetes",
+                        "GithubActions"
+                    ],
+                    "tasks": [
+                        "Added Angular features for improved UX.",
+                        "Deployed app to multiple regions using unified codebase and AWS.",
+                        "Managed cross-linked cloud services for deployment and scalability."
+                    ]
+                } 
+            ]
+        },
+        {
+            "companyName": "Tata Technologies",
+            "location": "Pune, India",
+            "overallTimePeriod": "January 2023 - November 2024",
+            "roles": [
+                {
+                    "role": "Solution Developer",
+                    "roleTimePeriod": "January 2024 - November 2024",
+                    "skills": [
+                        "Angular",
+                        "SpringBoot",
+                        "AWS"
+                    ],
+                    "tasks": [
+                        "Enhanced Angular frontend and UI.",
+                        "Added features and improved modules.",
+                        "Fixed bugs and boosted performance.",
+                        "Integrated APIs with backend team."
+                    ]
+                },
+                {
+                    "role": "Graduate Engineer Trainee",
+                    "roleTimePeriod": "January 2023 - December 2023",
+                    "skills": [
+                        "Angular",
+                        "React",
+                        "Bootstrap",
+                        "SpringBoot",
+                        "Mysql",
+                        "OracleSqlDeveloper"
+                    ],
+                    "tasks": [
+                        "Built user/vehicle management in React & Spring Boot.",
+                        "Maintained project, fixed bugs, added features.",
+                        "Migrated frontend from Angular to React in one week.",
+                        "Shared project knowledge and supported team."
+                    ]
+                }
+            ]
+        }
+    ]
+}
