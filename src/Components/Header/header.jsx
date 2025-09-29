@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <>
         <div className='flex-applier'>
-          <div className='intro' style={{ display: 'flex', gap: '2.2rem' }}>
+          <div className='intro'>
             <img src="/assets/icon.png" className="header-icon" alt="icon" />
             <div>
               <p className='he'>Hey There,</p>
