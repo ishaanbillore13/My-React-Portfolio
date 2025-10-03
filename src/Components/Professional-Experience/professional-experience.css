@@ -246,6 +246,7 @@ year-map-dot {
     align-items: center;
     justify-content: flex-start;
     padding: 2rem;
+    flex:0;
 }
 }
 
