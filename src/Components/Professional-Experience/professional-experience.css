@@ -240,6 +240,15 @@ year-map-dot {
     color: var(--accent-blue, #3b82f6);
 }
 
+@media (max-width: 600px) {
+.year-map-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem;
+}
+}
+
 .year-map-row{
     margin-bottom: 5rem;
     display: flex;
