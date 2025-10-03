@@ -7,6 +7,11 @@ position: fixed;
     margin: 24px;
 }
 
+@media (max-width: 800px){
+	.fixed-theme-toggle{
+		visibility: hidden;
+	}
+}
 .theme-toggle-btns {
 	display: flex;
 	gap: 0.5rem;

@@ -13,7 +13,7 @@ const darkOptions = {
         "enable": true,
         "zIndex": -11
       },
-      "fpsLimit": 120,
+      "fpsLimit": 60,
       "detectRetina": true,
       "interactivity": {
         "events": {

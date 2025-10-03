@@ -67,7 +67,9 @@ year-map-dot {
     transition: box-shadow 0.3s, transform 0.3s, border 0.3s;
     position: relative;
     overflow: hidden;
-        margin: 2.2rem 2.5rem!important;
+        margin:2.2rem 2.5rem!important;
+            margin-bottom: 5rem;
+
 
 }
 .role-card-spaced {
@@ -105,7 +107,6 @@ year-map-dot {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    gap: 2.5rem;
 }
 
 .professional-experience > h2 {
@@ -218,7 +219,6 @@ year-map-dot {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 1.5rem;
     font-size: 0.95rem;
     font-weight: 500;
     color: #94a3b8;
@@ -248,43 +248,12 @@ year-map-dot {
     padding: 2rem;
     flex:0;
 }
-}
 
-.year-map-row{
-    margin-bottom: 5rem;
-    display: flex;
-    align-items: stretch;
-    width: 100%;
-}
-
-.office-icon {
-  width: 3.5rem;
-  height: 3.5rem;
-  object-fit: contain;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(59,130,246,0.10);
-  transition: box-shadow 0.3s, transform 0.3s, background 0.3s;
-}
-
-.left-align {
-    text-align: left;
-}
-
-.company-and-location h2 {
-    text-align: left;
-    color: var(--text-color) !important;
-}
-
-.year-map-right {
-    flex: 1;
-}
-
-@media (max-width: 700px) {
-  .year-map-row {
+ .year-map-row {
     flex-direction: column !important;
     align-items: stretch !important;
     width: 100% !important;
-    gap: 1.2rem;
+    padding-bottom: 0 !important;
   }
 
   .year-map-divider {
@@ -309,4 +278,34 @@ year-map-dot {
   .company-location {
     font-size: 0.92rem !important;
   }
+
+}
+
+.year-map-row{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+.office-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(59,130,246,0.10);
+  transition: box-shadow 0.3s, transform 0.3s, background 0.3s;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.company-and-location h2 {
+    text-align: left;
+    color: var(--text-color) !important;
+}
+
+.year-map-right {
+    flex: 1;
 }
